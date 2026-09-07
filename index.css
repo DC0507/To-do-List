@@ -16,7 +16,11 @@ ul {
   padding: 20px;
 }
 li {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
+  width: fit-content;
+  min-width: 300px;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
